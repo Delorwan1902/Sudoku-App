@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/help_sudoku_textView"
+        android:layout_width="350dp"
+        android:layout_height="175dp"
+        android:textSize="12.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/help_sudoku_imageView"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/help_sudoku_textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo_border"
+        app:srcCompat="@drawable/sudoku_rules_pic" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/help_sudoku_imageView"
+        android:text="TextView"
+        android:id="@+id/help_x_sudoku_textView" />
+
+    <ImageView
+        android:id="@+id/help_x_sudoku_imageView"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="17.5dp"
+        android:layout_below="@id/help_x_sudoku_textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo_border"
+        app:srcCompat="@drawable/x_sudoku_pic"/>
+</RelativeLayout>

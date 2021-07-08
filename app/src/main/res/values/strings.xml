@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="challenges">Challenges</string>
+    <string name="statistics">Statistics</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="play">Play</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <string name="games_played">Games Played</string>
+    <string name="games_won">Games Won</string>
+    <string name="games_lost">Games Lost</string>
+    <string name="win_rate">Win Rate</string>
+    <string name="loss_rate">Loss Rate</string>
+    <string name="top_score">Top Score</string>
+    <string name="low_score">Low Score</string>
+    <string name="quickest_game">Quickest Game</string>
+    <string name="longest_game">Longest Game</string>
+    <string name="reset">Reset</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--android:icon="@drawable/ic_settings"-->
+    <item
+        android:title="Play Music"
+        android:id="@+id/play_music"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Change Music"
+        android:id="@+id/change_music"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Pause Music"
+        android:id="@+id/pause_music"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Stop Music"
+        android:id="@+id/stop_music"
+        app:showAsAction="never" />
+</menu>
